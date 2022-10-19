@@ -1,10 +1,27 @@
 {
 	"name": "Violet's Theme",
 	"colors": {
-		"editor.background": "#263238",
+		"activityBar.activeBackground": "#101010",
+		"activityBar.background": "#0f0f0f",
+		"activityBar.border": "#2a2a2a",
+		"activityBar.foreground": "#dddddd",
+		"activityBar.inactiveForeground": "#888888",
+		"button.background": "#9f3efa",
+		"button.foreground": "#ffffff",
+		"button.hoverBackground": "#7d24d0",
+		"editorLineNumber.activeForeground": "#ffffff",
+		"editor.lineHighlightBackground": "#151515",
+		"editor.background": "#0f0f0f",
 		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBar.background": "#141414",
+		"sideBar.border": "#2a2a2a",
+		"statusBar.noFolderBackground": "#191919",
+		"statusBarItem.remoteBackground": "#191919",
+		"tab.inactiveBackground": "#121212",
+		"editorGroupHeader.tabsBackground": "#121212",
+		// defaults
+		"focusBorder": "#ff000000", // no focus border
 	},
 	"tokenColors": [
 		{
@@ -25,7 +42,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#E5BF7A"
 			}
 		},
 		{
@@ -99,7 +116,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#61AFEE"
 			}
 		},
 		{
