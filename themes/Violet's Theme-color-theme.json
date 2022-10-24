@@ -25,6 +25,7 @@
 		"focusBorder": "#ff000000", // no focus border
 	},
 	"tokenColors": [
+		/// # DEFAULT
 		{
 			"name": "Comment",
 			"scope": [
@@ -360,6 +361,7 @@
 				"foreground": "#82AAFF"
 			}
 		},
+		/// # JS
 		{
 			"name": "ES7 Bind Operator",
 			"scope": [
@@ -370,6 +372,7 @@
 				"foreground": "#FF5370"
 			}
 		},
+		// # JSON
 		{
 			"name": "JSON Key - Level 0",
 			"scope": [
@@ -451,6 +454,7 @@
 				"foreground": "#C3E88D"
 			}
 		},
+		/// # MARKDOWN
 		{
 			"name": "Markdown - Plain",
 			"scope": [
@@ -647,10 +651,21 @@
 				"foreground": "#EEFFFF"
 			}
 		},
+		/// # SWIFT
 		{
 			"name": "Swift - Update",
 			"scope": [
 				"support.type"
+			],
+			"settings": {
+				"foreground": "#fd89e2"
+			}
+		},
+		/// # RUST
+		{
+			"name": "Rust - Type",
+			"scope": [
+				"source.rust entity.name"
 			],
 			"settings": {
 				"foreground": "#fd89e2"
