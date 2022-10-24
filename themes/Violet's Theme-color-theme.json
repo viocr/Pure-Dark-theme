@@ -17,6 +17,7 @@
 		"sideBar.background": "#141414",
 		"sideBar.border": "#2a2a2a",
 		"statusBar.noFolderBackground": "#191919",
+		"statusBar.background": "#191919",
 		"statusBarItem.remoteBackground": "#191919",
 		"tab.inactiveBackground": "#121212",
 		"editorGroupHeader.tabsBackground": "#121212",
@@ -31,15 +32,16 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
+				// "fontStyle": "italic",
 				"foreground": "#546E7A"
 			}
 		},
 		{
+			// TODO
 			"name": "Variables",
 			"scope": [
-				"variable",
-				"string constant.other.placeholder"
+				// "variable",
+				// "string constant.other.placeholder"
 			],
 			"settings": {
 				"foreground": "#E5BF7A"
@@ -65,22 +67,16 @@
 			}
 		},
 		{
-			"name": "Keyword, Storage",
-			"scope": [
-				"keyword",
-				"storage.type",
-				"storage.modifier"
-			],
+			"name": "Storage",
+			"scope": ["storage.type", "storage.modifier"],
 			"settings": {
 				"foreground": "#C792EA"
 			}
 		},
 		{
-			"name": "Operator, Misc",
+			"name": "Misc",
 			"scope": [
-				"keyword.control",
 				"constant.other.color",
-				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
@@ -89,10 +85,12 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.arithmetic",
+				"keyword.other.substitution",
+				"punctuation.terminator"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#9c9b9b"
 			}
 		},
 		{
@@ -139,19 +137,28 @@
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"name": "Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
-				"constant.numeric",
 				"constant.language",
 				"support.constant",
 				"constant.character",
 				"constant.escape",
 				"variable.parameter",
 				"keyword.other.unit",
-				"keyword.other"
+				"keyword.other",
+				"keyword.control"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": [
+				"constant.numeric",
+			],
+			"settings": {
+				"foreground": "#98C379"
 			}
 		},
 		{
@@ -173,13 +180,11 @@
 			"name": "Class, Support",
 			"scope": [
 				"entity.name",
-				"support.type",
 				"support.class",
 				"support.other.namespace.use.php",
 				"meta.use.php",
 				"support.other.namespace.php",
-				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"markup.changed.git_gutter"
 			],
 			"settings": {
 				"foreground": "#FFCB6B"
@@ -205,7 +210,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#FF5370"
 			}
 		},
 		{
@@ -262,7 +267,7 @@
 			"name": "HTML Attributes",
 			"scope": [
 				"text.html.basic entity.other.attribute-name.html",
-				"text.html.basic entity.other.attribute-name"
+				"text.html.basic entity.other.attribute-name",
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -272,10 +277,11 @@
 		{
 			"name": "CSS Classes",
 			"scope": [
-				"entity.other.attribute-name.class"
+				"entity.other.attribute-name.class",
+				"source.css entity.other.attribute-name",
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#82AAFF"
 			}
 		},
 		{
@@ -639,6 +645,15 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
+			}
+		},
+		{
+			"name": "Swift - Update",
+			"scope": [
+				"support.type"
+			],
+			"settings": {
+				"foreground": "#fd89e2"
 			}
 		}
 	]

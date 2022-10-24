@@ -1,8 +1,8 @@
 {
-  "name": "violet",
-  "displayName": "Violet's Theme",
-  "description": "Violet's vscode theme",
-  "version": "0.0.1",
+  "name": "pure-dark",
+  "displayName": "Pure Dark",
+  "description": "Pure Dark Theme",
+  "version": "0.2.0",
   "engines": {
     "vscode": "^1.72.0"
   },
@@ -12,11 +12,13 @@
   "contributes": {
     "themes": [
       {
-        "label": "Violet's Theme",
+        "label": "Pure Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Violet's Theme-color-theme.json"
       }
     ]
   },
-  "publisher": "viocr"
+  "publisher": "viocr",
+  "icon": "",
+  "repository": { "url": "https://github.com/viocr/Pure-Dark-theme" }
 }
